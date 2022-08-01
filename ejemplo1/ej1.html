@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Problemas matematicos y su resultado en java-->
+
+   <title>Ejercicios de javascript</title>
+</head>
+    <body>
+        
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<hr>
+<div>
+<h2>The window.print() Method</h2>
+
+<p>Click the button to print the current page.</p>
+
+<button onclick="window.print()">Print this page</button>
+<hr>
+<div>
+​<h2>My First Web Page</h2>
+<p>5 / 6 =</p>
+
+<button type="button" onclick="document.write(5 / 6)">Try it</button>
+</div>
+<hr>
+<div>
+<h1>JavaScript Variables</h1>
+
+<p>In this example, x, y, and z are variables.</p>
+
+<p id="demo"></p>
+<button type="button" onclick="document.write(z= x * y)">Try it</button>
+
+
+<script>
+var x = 5;
+var y = 6;
+var z = x * y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " * z;
+</script>
+</div>
+<hr>
+<div>
+​<h1>JavaScript Variables</h1>
+
+<p>The result of adding 5 + 2 + 3 is:</p>
+<p id="demo"></p>
+<p id="demo"></p>
+<button type="button" onclick="document.write(5 + 2 + 3)">Try it</button>
+
+<script>
+document.getElementById("demo").innerHTML = x;
+</script>
+</div>
+
+</body>
+</html>
