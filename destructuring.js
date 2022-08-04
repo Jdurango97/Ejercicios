@@ -1,6 +1,6 @@
 const persona = {
-    nombre:"Juana",
-    apellido:"Muñoz",
+    nombre:"Juana.",
+    apellido:"Muñoz.",
 };
 
 const { nombre, apellido } = persona; 
